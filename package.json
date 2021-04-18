@@ -6,7 +6,7 @@
         "start": "gulp",
         "deploy": "npm run build && gh-pages -d dist"
     },
-    "homepage": "https://monsara.github.io/synth-feed-section/dist",
+    "homepage": "https://monsara.github.io/synth-feed-section",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/monsara/synth-feed-section.git"
