@@ -55,7 +55,7 @@ git clone https://github.com/monsara/synth-feed-section.git
 -   Go to the project folder
 
 ```shell
-cd art
+cd synth-feed-section
 ```
 
 -   Install dependencies
