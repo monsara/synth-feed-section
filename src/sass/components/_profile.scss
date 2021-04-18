@@ -3,5 +3,8 @@
 
     &__user {
         margin-right: 21px;
+        @include mobile {
+            margin-right: 10px;
+        }
     }
 }

@@ -7,6 +7,9 @@
         line-height: (19/14);
         &:not(:last-child) {
             margin-right: 37px;
+            @include mobile {
+                margin-right: 30px;
+            }
         }
     }
 
@@ -24,7 +27,8 @@
             transition: $time-sm ease-in-out;
         }
 
-        &:hover {
+        &:hover,
+        &:active {
             text-shadow: 0 0 0.65px $color-3, 0 0 0.65px $color-3;
 
             &::after {

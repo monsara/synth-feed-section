@@ -7,6 +7,12 @@ body {
     color: $color-1;
 }
 
+html,
+body {
+    height: auto;
+    min-height: 100vh;
+}
+
 img,
 video,
 svg {
@@ -21,6 +27,14 @@ a,
 [class*="link"] {
     cursor: pointer;
 }
+
+// .img-box {
+//     display: block;
+
+//     img {
+//         @include object-fit(cover);
+//     }
+// }
 
 /* visually-hidden helper */
 .visually-hidden:not(:focus):not(:active),

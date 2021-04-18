@@ -1,4 +1,7 @@
 .logo {
+    display: flex;
+    align-items: center;
+
     &:hover {
         opacity: 0.8;
         transition: $time-sm ease-in-out;
