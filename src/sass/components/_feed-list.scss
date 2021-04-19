@@ -1,8 +1,11 @@
 .feed-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(374px, auto));
+    grid-template-columns: repeat(auto-fill, 374px);
     grid-gap: 24px;
-    @include mobile {
+    @include tablet {
+        justify-content: center;
+    }
+    @include media($xsm) {
         grid-template-columns: repeat(auto-fill, minmax(100%, auto));
     }
 
