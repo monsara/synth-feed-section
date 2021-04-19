@@ -8,7 +8,7 @@ GitHup Page: https://monsara.github.io/synth-feed-section/
 
 ## Browser Support
 
-New browsers — Firefox, Chrome, Opera, Microsoft Edge and IE 11, newer versions of Android/iOS, etc.
+New browsers — Firefox, Chrome, Safari
 
 ## Used techniques
 
@@ -27,6 +27,8 @@ New browsers — Firefox, Chrome, Opera, Microsoft Edge and IE 11, newer version
 
 -   Show/hide dropdowns
 -   Change dropdown position on mobile screes
+-   Higlight acitve nav link
+-   Seting margins for feed cards in IE browser
 
 ## Instruments
 
