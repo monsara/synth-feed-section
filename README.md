@@ -6,6 +6,8 @@ Design: https://www.figma.com/file/Vc1w97I4xEftbLDujdXwrp/swivl_test?node-id=0%3
 
 GitHup Page: https://monsara.github.io/synth-feed-section/
 
+GitHup Page (version 2 for adaptive feed grid): https://monsara.github.io/synth-feed-section/
+
 ## Browser Support
 
 New browsers — Firefox, Chrome, Safari
