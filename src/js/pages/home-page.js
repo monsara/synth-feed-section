@@ -13,13 +13,14 @@ export default () => {
 
         console.log(isInternetExplorer());
 
-        if (isInternetExplorer() === false) {
+        if (isInternetExplorer() === true) {
             const gridCards = document.querySelectorAll('.feed-grid__item');
 
             gridCards.forEach(card => {
                 console.log(card);
                 gridCards.forEach(card => {
                     card.style.margin = '12px';
+                    console.log(card);
                 });
             });
         }
