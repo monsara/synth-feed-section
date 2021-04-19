@@ -14,7 +14,7 @@ export default () => {
         console.log(isInternetExplorer());
 
         if (isInternetExplorer() === true) {
-            const gridCards = document.querySelectorAll('.feed-list__item');
+            const gridCards = document.querySelectorAll('.feed-grid__item');
 
             gridCards.forEach(card => {
                 console.log(card);
