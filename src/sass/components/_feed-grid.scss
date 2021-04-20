@@ -1,11 +1,11 @@
 .feed-grid {
     display: grid;
     display: -ms-grid;
-    grid-template-columns: 350px 374px 374px;
-    -ms-grid-columns: 350px 374px 374px;
+    grid-template-columns: 374px 374px 374px;
+    -ms-grid-columns: 374px 374px 374px;
     grid-gap: 24px;
 
-    @media (max-width: 1440px) {
+    @media (max-width: 1439px) {
         justify-content: center;
         grid-template-columns: 374px 374px;
     }
@@ -76,7 +76,7 @@
             grid-row-start: 2;
             -ms-grid-row-span: 0;
             grid-row-end: 2;
-            @include media(1440px) {
+            @include media(1439px) {
                 -ms-grid-column: 1;
                 grid-column-start: 1;
                 -ms-grid-column-span: 0;
@@ -108,7 +108,7 @@
             grid-row-start: 3;
             -ms-grid-row-span: 0;
             grid-row-end: 3;
-            @include media(1440px) {
+            @include media(1439px) {
                 -ms-grid-column: 1;
                 grid-column-start: 1;
                 -ms-grid-column-span: 0;
